@@ -6,8 +6,8 @@ This project predicts **customer churn** (whether a customer leaves the bank) us
 The model is trained on customer demographic and financial data and outputs churn risk.
 
 ### 🔑 Key Steps:
-1. Data Cleaning & Preprocessing  
-2. Exploratory Data Analysis (EDA + Visuals)  
+1. Exploratory Data Analysis (EDA + Visuals)
+2. Data Cleaning & Preprocessing
 3. Feature Engineering  
 4. Model Training & Evaluation  
 5. Interpretation of Results  
@@ -120,5 +120,5 @@ Dependencies are listed in `requirements.txt`, including:
 
 ## 👩‍💻 Author
 
-Created by **Lashmi M.** – feel free to reach out!
+Created by **Lashmi M.**,  feel free to reach out!
 
