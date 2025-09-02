@@ -29,7 +29,9 @@ git clone https://github.com/lashm4/Bank-Churn-Prediction.git
 cd Bank-Churn-Prediction
 pip install -r requirements.txt
 
-🚀Usage
+---
+
+## 🚀Usage
 
 Run the Jupyter Notebook:
 jupyter notebook notebooks/churn_model.ipynb
@@ -48,7 +50,9 @@ X_new_scaled = scaler.transform(X_new)
 prediction = model.predict(X_new_scaled)
 print("Churn Prediction:", prediction)
 
-📈Model Performance
+---
+
+## 📈Model Performance
 
 - Training Accuracy: 81.5%
 
@@ -56,7 +60,9 @@ print("Churn Prediction:", prediction)
 
 - ROC-AUC: 0.596 → model is not great at separating churners from non-churners
 
-🔑Key Insights
+---
+
+## 🔑Key Insights
 
 Age, Activity Status, Balance, and Geography are the strongest churn predictors.
 
@@ -64,12 +70,16 @@ Older, inactive, high-balance customers (especially from Germany) are more likel
 
 Active members and those with multiple products are less likely to leave.
 
-📊Dashboard
+---
+
+## 📊Dashboard
 
 Interactive visual insights are available on Tableau Public:
 👉 Churn Insights Dashboard: https://public.tableau.com/app/profile/lashmi.munante/viz/ChurnInsightsDashboard/Dashboard1#1
 
-📌Next Steps
+---
+
+## Next Steps
 
 - Train advanced models (Random Forest, XGBoost, Gradient Boosting)
 
@@ -77,7 +87,9 @@ Interactive visual insights are available on Tableau Public:
 
 - Expand business intelligence integration with Tableau / Power BI
 
-📜Requirements
+---
+
+## 📜Requirements
 
 Dependencies are listed in requirements.txt, including:
 
@@ -93,6 +105,8 @@ Dependencies are listed in requirements.txt, including:
 
 - joblib
 
-👩‍💻Author
+---
 
-Created by Lashmi M.,feel free to reach out!
+## 👩‍💻Author
+
+Created by Lashmi M., feel free to reach out!
