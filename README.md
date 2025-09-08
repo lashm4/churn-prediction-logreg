@@ -89,17 +89,16 @@ print("Churn Prediction:", prediction)
 
 ---
 
-## 📊 Dashboard
+## 📊Comparison Dashboard 
 
 Interactive visual insights are available on Tableau Public:  
-👉 [Churn Insights Dashboard](https://public.tableau.com/app/profile/lashmi.munante/viz/ChurnInsightsDashboard/Dashboard1#1)
+👉 https://public.tableau.com/views/ChurnInsightsDashboard/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
 ## 📌 Next Steps
 
 - Train advanced models (Random Forest, XGBoost, Gradient Boosting)  
-- Build a Streamlit or Flask web app for deployment  
 - Expand business intelligence integration with Tableau / Power BI
 
 ---
