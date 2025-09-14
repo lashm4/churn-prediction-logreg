@@ -1,11 +1,11 @@
-# 🏦 Customer Churn Prediction (Logistic Regression)
+# Customer Churn Prediction (Logistic Regression)
 
-## 📌 Project Overview
+## Project Overview
 
 This project predicts **customer churn** (whether a customer leaves the bank) using a **Logistic Regression model**.  
 The model is trained on customer demographic and financial data and outputs churn risk.
 
-### 🔑 Key Steps:
+### Key Steps:
 1. Exploratory Data Analysis (EDA + Visuals)
 2. Data Cleaning & Preprocessing
 3. Feature Engineering  
@@ -15,7 +15,7 @@ The model is trained on customer demographic and financial data and outputs chur
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [Bank Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/shubhammeshram579/bank-customer-churn-prediction)  
 - **Target:** `Exited` → (1 = Churned, 0 = Stayed)  
@@ -23,7 +23,7 @@ The model is trained on customer demographic and financial data and outputs chur
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone this repository and install dependencies:
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run the Jupyter Notebook:
 
@@ -63,7 +63,7 @@ print("Churn Prediction:", prediction)
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 - **Training Accuracy:** 81.5%  
 - **Test Accuracy:** 80.6% → model generalizes reasonably well on unseen data  
@@ -71,7 +71,7 @@ print("Churn Prediction:", prediction)
 
 ---
 
-## 🔑 Top Features & Business Insights (Odds Ratios)
+## Top Features & Business Insights (Odds Ratios)
 
 - **Age (OR = 2.11)** → older customers are ~2.1× more likely to churn per additional year  
 - **IsActiveMember (OR = 0.60)** → active members are 40% less likely to churn  
@@ -83,27 +83,27 @@ print("Churn Prediction:", prediction)
 
 **Business Insights:**
 
-- Customers with high balance but fewer products are at higher risk of churn  
+- Customers with high balances but fewer products are at higher risk of churn  
 - Active members and customers with multiple products are safer  
-- Targeted retention campaigns (e.g., personalized offers, loyalty incentives) could reduce churn in high-risk segments
+- Targeted retention campaigns (e.g., personalised offers, loyalty incentives) could reduce churn in high-risk segments
 
 ---
 
-## 📊Comparison Dashboard 
+## Comparison Dashboard 
 
 Interactive visual insights are available on Tableau Public:  
 👉 https://public.tableau.com/views/ChurnInsightsDashboard/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
-## 📌 Next Steps
+## Next Steps
 
 - Train advanced models (Random Forest, XGBoost, Gradient Boosting)  
 - Expand business intelligence integration with Tableau / Power BI
 
 ---
 
-## 📜 Requirements
+## Requirements
 
 Dependencies are listed in `requirements.txt`, including:
 
@@ -117,7 +117,7 @@ Dependencies are listed in `requirements.txt`, including:
 
 ---
 
-## 👩‍💻 Author
+## 👩🏻‍💻Author
 
 Created by **Lashmi M.**,  feel free to reach out!
 
